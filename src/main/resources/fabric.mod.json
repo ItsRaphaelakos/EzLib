@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ezlib",
+  "version": "${version}",
+  "name": "EzLib",
+  "description": "EzLib is an easy helper library for Ez client-side QoL Fabric mods. It provides simple APIs for configs, HUDs, GUI buttons, text, colors, inventory checks, player helpers, logging, and more.",
+  "authors": [
+    "ItsRaphaelakosYT"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/@ItsRaphaelakos",
+    "sources": "https://github.com/ItsRaphaelakos/EzLib",
+    "issues": "https://discord.gg/fSgP8zt2pz",
+    "modrinth": "https://modrinth.com/user/ItsRaphaelakosYT",
+    "curseforge": "https://www.curseforge.com/members/itsraphaelakosyt/projects",
+    "discord": "https://discord.gg/aWA3mJAaxK"
+  },
+  "license": "MIT",
+  "icon": "assets/ezlib/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.itsraphaelakosyt.ezlib.EzLib"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": "*",
+    "minecraft": "26.1.2"
+  }
+}
