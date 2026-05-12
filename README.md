@@ -58,7 +58,7 @@ repositories {
 }
 
 dependencies {
-    implementation "com.github.ItsRaphaelakosYT:EzLib:1.0.0"
+    implementation "com.github.ItsRaphaelakosYT:EzLib:1.0.4"
 }
 ```
 
