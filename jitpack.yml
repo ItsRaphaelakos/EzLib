@@ -1,0 +1,10 @@
+jdk:
+  - openjdk25
+
+before_install:
+  - sdk install java 25.0.3-tem
+  - sdk use java 25.0.3-tem
+  - chmod +x gradlew
+
+install:
+  - ./gradlew clean build publishToMavenLocal -x test
