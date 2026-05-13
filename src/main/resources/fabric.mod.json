@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ezlib",
+  "version": "${version}",
+  "name": "EzLib",
+  "description": "A helper library for client-side QoL Fabric mods.",
+  "authors": ["ItsRaphaelakosYT"],
+  "contact": {
+    "sources": "https://github.com/ItsRaphaelakosYT/EzLib"
+  },
+  "license": "MIT",
+  "icon": "assets/ezlib/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.itsraphaelakosyt.ezlib.EzLib"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": "*",
+    "minecraft": ">=1.26.1"
+  }
+}
