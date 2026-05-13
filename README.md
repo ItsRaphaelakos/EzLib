@@ -31,6 +31,8 @@ A helper library for **client-side QoL Fabric mods** targeting Minecraft 1.26.x.
 
 ---
 
+[![](https://jitpack.io/v/ItsRaphaelakos/EzLib.svg)](https://jitpack.io/#ItsRaphaelakos/EzLib)
+
 ## 1 — Building EzLib
 
 ### Requirements
